@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SyncStartTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="tb0-C1-aVa">
+                                <rect key="frame" x="350" y="834" width="1220" height="86"/>
+                                <subviews>
+                                    <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBY-sY-jTc">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="400" id="2NZ-3g-JSX"/>
+                                            <constraint firstAttribute="height" constant="86" id="Ym5-oS-Ity"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="Select Left Video"/>
+                                        <connections>
+                                            <segue destination="NP4-xN-ReH" kind="presentation" id="FeA-k0-CKS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qv-yu-c02">
+                                        <rect key="frame" x="820" y="0.0" width="400" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="86" id="ngP-f1-kRV"/>
+                                            <constraint firstAttribute="width" constant="400" id="rad-A6-oxW"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="Select Right Video"/>
+                                        <connections>
+                                            <segue destination="NP4-xN-ReH" kind="presentation" id="fDt-rV-Qt0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2qv-yu-c02" firstAttribute="centerY" secondItem="tb0-C1-aVa" secondAttribute="centerY" id="Hx1-nX-Eos"/>
+                                    <constraint firstItem="2qv-yu-c02" firstAttribute="leading" secondItem="SBY-sY-jTc" secondAttribute="trailing" constant="420" id="hHj-SS-a84"/>
+                                    <constraint firstItem="SBY-sY-jTc" firstAttribute="centerY" secondItem="tb0-C1-aVa" secondAttribute="centerY" id="uG8-nd-NoZ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="NmF-IQ-U7X">
+                                <rect key="frame" x="24" y="150" width="1872" height="570"/>
+                                <subviews>
+                                    <view tag="200" contentMode="scaleToFill" restorationIdentifier="LView" translatesAutoresizingMaskIntoConstraints="NO" id="S6I-nh-5dM">
+                                        <rect key="frame" x="0.0" y="0.0" width="928" height="570"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="928" id="GXk-6t-ubo" userLabel="width = 420"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="201" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3JF-OQ-QLK">
+                                        <rect key="frame" x="944" y="0.0" width="928" height="570"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="928" id="gFy-8D-6UR" userLabel="width = 420"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NmF-IQ-U7X" firstAttribute="top" secondItem="8Fg-hC-7Cp" secondAttribute="top" constant="90" id="99v-KD-cyI"/>
+                            <constraint firstItem="tb0-C1-aVa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XSa-hT-CEL"/>
+                            <constraint firstItem="8Fg-hC-7Cp" firstAttribute="bottom" secondItem="NmF-IQ-U7X" secondAttribute="bottom" constant="300" id="jQK-qo-PjJ"/>
+                            <constraint firstItem="NmF-IQ-U7X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oWE-Us-NBx"/>
+                            <constraint firstItem="NmF-IQ-U7X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pjS-bc-03F"/>
+                            <constraint firstItem="8Fg-hC-7Cp" firstAttribute="bottom" secondItem="tb0-C1-aVa" secondAttribute="bottom" constant="100" id="vZV-rY-nP4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Fg-hC-7Cp"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftButton" destination="SBY-sY-jTc" id="99P-Qd-wBj"/>
+                        <outlet property="rightButton" destination="2qv-yu-c02" id="hf1-Y2-a6R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-408" y="884"/>
+        </scene>
+        <!--Browse View Controller-->
+        <scene sceneID="Ldy-7j-dYG">
+            <objects>
+                <viewController id="NP4-xN-ReH" customClass="BrowseViewController" customModule="SyncStartTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gWF-4j-EQV"/>
+                        <viewControllerLayoutGuide type="bottom" id="mPd-pQ-pma"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="fSI-c2-Gx0">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="66" sectionFooterHeight="66" translatesAutoresizingMaskIntoConstraints="NO" id="5ml-cC-I0e">
+                                <rect key="frame" x="370" y="320" width="1180" height="440"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <sections/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select an HLS stream" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPv-Qo-dXW">
+                                <rect key="frame" x="776" y="126" width="368" height="46"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wtw-Go-huW">
+                                <rect key="frame" x="861" y="900" width="198" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="BWf-ul-18C"/>
+                                    <constraint firstAttribute="width" constant="198" id="ED6-HG-6AM"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="FTH-88-pBh" kind="unwind" identifier="unwindToMain" unwindAction="myUnwindActionWithUnwindSegue:" id="LfL-R5-F3g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c2L-kF-gwh" firstAttribute="bottom" secondItem="Wtw-Go-huW" secondAttribute="bottom" constant="34" id="LZx-GU-bD5"/>
+                            <constraint firstItem="XPv-Qo-dXW" firstAttribute="centerX" secondItem="fSI-c2-Gx0" secondAttribute="centerX" id="PTg-zB-A6I"/>
+                            <constraint firstItem="XPv-Qo-dXW" firstAttribute="top" secondItem="c2L-kF-gwh" secondAttribute="top" constant="66" id="equ-EB-0G4"/>
+                            <constraint firstItem="Wtw-Go-huW" firstAttribute="centerX" secondItem="fSI-c2-Gx0" secondAttribute="centerX" id="j9u-AJ-ATc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c2L-kF-gwh"/>
+                    </view>
+                    <connections>
+                        <outlet property="serviceTable" destination="5ml-cC-I0e" id="q2k-r3-BYM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zAP-r0-FDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="FTH-88-pBh" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="-338"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="FeA-k0-CKS"/>
+    </inferredMetricsTieBreakers>
+</document>

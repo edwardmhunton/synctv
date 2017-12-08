@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB45E9F61ECF629600C4B1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB45E9F51ECF629600C4B1AF /* AppDelegate.swift */; };
+		DB45E9F81ECF629600C4B1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB45E9F71ECF629600C4B1AF /* ViewController.swift */; };
+		DB45E9FB1ECF629600C4B1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB45E9F91ECF629600C4B1AF /* Main.storyboard */; };
+		DB45EA051ECF8F5100C4B1AF /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB45EA041ECF8F5100C4B1AF /* BrowseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8273A403F0B39DD79706425 /* SampleCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		D8DABE99DF39DB1E8F36A0D5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DB45E9F21ECF629600C4B1AF /* SyncStartTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncStartTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB45E9F51ECF629600C4B1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB45E9F71ECF629600C4B1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB45E9FA1ECF629600C4B1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB45E9FE1ECF629600C4B1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB45EA041ECF8F5100C4B1AF /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
+		DB45EA351ED4F63400C4B1AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB45E9EF1ECF629600C4B1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91C7631C6339DF23BF7793A8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A8273A403F0B39DD79706425 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		DB45E9E91ECF629600C4B1AF = {
+			isa = PBXGroup;
+			children = (
+				DB45EA351ED4F63400C4B1AF /* README.md */,
+				DB45E9F41ECF629600C4B1AF /* SyncStartTV */,
+				DB45E9F31ECF629600C4B1AF /* Products */,
+				91C7631C6339DF23BF7793A8 /* Configuration */,
+				DC8E74B26C311C7D17EDF6AC /* LICENSE */,
+			);
+			sourceTree = "<group>";
+		};
+		DB45E9F31ECF629600C4B1AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB45E9F21ECF629600C4B1AF /* SyncStartTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB45E9F41ECF629600C4B1AF /* SyncStartTV */ = {
+			isa = PBXGroup;
+			children = (
+				DB45E9F51ECF629600C4B1AF /* AppDelegate.swift */,
+				DB45E9F71ECF629600C4B1AF /* ViewController.swift */,
+				DB45EA041ECF8F5100C4B1AF /* BrowseViewController.swift */,
+				DB45E9F91ECF629600C4B1AF /* Main.storyboard */,
+				DB45E9FE1ECF629600C4B1AF /* Info.plist */,
+			);
+			path = SyncStartTV;
+			sourceTree = "<group>";
+		};
+		DC8E74B26C311C7D17EDF6AC /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				D8DABE99DF39DB1E8F36A0D5 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB45E9F11ECF629600C4B1AF /* SyncStartTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB45EA011ECF629600C4B1AF /* Build configuration list for PBXNativeTarget "SyncStartTV" */;
+			buildPhases = (
+				DB45E9EE1ECF629600C4B1AF /* Sources */,
+				DB45E9EF1ECF629600C4B1AF /* Frameworks */,
+				DB45E9F01ECF629600C4B1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncStartTV;
+			productName = SyncStartTV;
+			productReference = DB45E9F21ECF629600C4B1AF /* SyncStartTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB45E9EA1ECF629600C4B1AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					DB45E9F11ECF629600C4B1AF = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB45E9ED1ECF629600C4B1AF /* Build configuration list for PBXProject "SyncStartTV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB45E9E91ECF629600C4B1AF;
+			productRefGroup = DB45E9F31ECF629600C4B1AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB45E9F11ECF629600C4B1AF /* SyncStartTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB45E9F01ECF629600C4B1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB45E9FB1ECF629600C4B1AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB45E9EE1ECF629600C4B1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB45EA051ECF8F5100C4B1AF /* BrowseViewController.swift in Sources */,
+				DB45E9F81ECF629600C4B1AF /* ViewController.swift in Sources */,
+				DB45E9F61ECF629600C4B1AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB45E9F91ECF629600C4B1AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB45E9FA1ECF629600C4B1AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB45E9FF1ECF629600C4B1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8273A403F0B39DD79706425 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		DB45EA001ECF629600C4B1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8273A403F0B39DD79706425 /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB45EA021ECF629600C4B1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8273A403F0B39DD79706425 /* SampleCode.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				INFOPLIST_FILE = SyncStartTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SyncStartTV${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		DB45EA031ECF629600C4B1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8273A403F0B39DD79706425 /* SampleCode.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GJ24C8864F;
+				INFOPLIST_FILE = SyncStartTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SyncStartTV${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB45E9ED1ECF629600C4B1AF /* Build configuration list for PBXProject "SyncStartTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB45E9FF1ECF629600C4B1AF /* Debug */,
+				DB45EA001ECF629600C4B1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB45EA011ECF629600C4B1AF /* Build configuration list for PBXNativeTarget "SyncStartTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB45EA021ECF629600C4B1AF /* Debug */,
+				DB45EA031ECF629600C4B1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB45E9EA1ECF629600C4B1AF /* Project object */;
+}
